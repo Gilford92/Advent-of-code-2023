@@ -1,8 +1,8 @@
 #include <iostream>
-#include "Day 01/Trebuchet.h"
+#include "Day 01/trebuchet.h"
 
 int main(int argc, char* argv[])
 {
-	std::cout << Trebuchet::part_one("Day 01/Input.txt");
+	std::cout << trebuchet::part_two("Day 01/Input.txt", true);
 	return 0;
 }

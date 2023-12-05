@@ -154,14 +154,17 @@
         </Link>
     </ItemDefinitionGroup>
     <ItemGroup>
-        <ClCompile Include="Day 01\Trebuchet.cpp"/>
+        <ClCompile Include="Day 01\literal_digit.cpp"/>
+        <ClCompile Include="Day 01\trebuchet.cpp"/>
         <ClCompile Include="TestExercises.cpp"/>
     </ItemGroup>
     <ItemGroup>
-        <ClInclude Include="Day 01\Trebuchet.h"/>
+        <ClInclude Include="Day 01\literal_digit.h"/>
+        <ClInclude Include="Day 01\trebuchet.h"/>
     </ItemGroup>
     <ItemGroup>
-        <Content Include="Day 01\Example.txt"/>
+        <Content Include="Day 01\Example01.txt"/>
+        <Content Include="Day 01\Example02.txt"/>
         <Content Include="Day 01\Input.txt"/>
     </ItemGroup>
     <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets"/>
