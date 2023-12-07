@@ -157,12 +157,16 @@
         <ClCompile Include="Day 01\literal_digit.cpp"/>
         <ClCompile Include="Day 01\trebuchet.cpp"/>
         <ClCompile Include="Day 02\cube_conundrum.cpp"/>
+        <ClCompile Include="Day 03\engine_value.cpp"/>
+        <ClCompile Include="Day 03\gear_ratios.cpp"/>
         <ClCompile Include="TestExercises.cpp"/>
     </ItemGroup>
     <ItemGroup>
         <ClInclude Include="Day 01\literal_digit.h"/>
         <ClInclude Include="Day 01\trebuchet.h"/>
         <ClInclude Include="Day 02\cube_conundrum.h"/>
+        <ClInclude Include="Day 03\engine_value.h"/>
+        <ClInclude Include="Day 03\gear_ratios.h"/>
     </ItemGroup>
     <ItemGroup>
         <Content Include="Day 01\Example01.txt"/>
@@ -170,6 +174,8 @@
         <Content Include="Day 01\Input.txt"/>
         <Content Include="Day 02\Example01.txt"/>
         <Content Include="Day 02\Input.txt"/>
+        <Content Include="Day 03\Example01.txt"/>
+        <Content Include="Day 03\Input.txt"/>
     </ItemGroup>
     <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets"/>
     <ImportGroup Label="ExtensionTargets">

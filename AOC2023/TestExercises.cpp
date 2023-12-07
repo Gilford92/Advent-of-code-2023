@@ -1,8 +1,8 @@
 #include <iostream>
-#include "Day 02/cube_conundrum.h"
+#include "Day 03/gear_ratios.h"
 
 int main(int argc, char* argv[])
 {
-	std::cout << cube_conundrum::part_two("Day 02/Input.txt", true);
+	std::cout << gear_ratios::part_one("Day 03/Input.txt", true);
 	return 0;
 }
