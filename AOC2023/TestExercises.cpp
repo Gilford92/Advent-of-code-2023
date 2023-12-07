@@ -3,6 +3,6 @@
 
 int main(int argc, char* argv[])
 {
-	std::cout << gear_ratios::part_one("Day 03/Input.txt", true);
+	std::cout << gear_ratios::part_two("Day 03/Input.txt", true);
 	return 0;
 }
