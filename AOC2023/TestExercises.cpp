@@ -1,8 +1,8 @@
 #include <iostream>
-#include "Day 03/gear_ratios.h"
+#include "Day 04/scratchcards.h"
 
 int main(int argc, char* argv[])
 {
-	std::cout << gear_ratios::part_two("Day 03/Input.txt", true);
+	std::cout << scratchcards::part_one("Day 04/Input.txt", true);
 	return 0;
 }
