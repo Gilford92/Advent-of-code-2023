@@ -5,5 +5,5 @@ struct seed_map
 {
 	long long destination_range_start = 0;
 	long long source_range_start = 0;
-	long long range_length = LONG_MAX;
+	long long range_length = LLONG_MAX;
 };
