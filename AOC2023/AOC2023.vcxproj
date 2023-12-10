@@ -162,6 +162,8 @@
         <ClCompile Include="Day 04\scratchcards.cpp"/>
         <ClCompile Include="Day 05\almanac.cpp"/>
         <ClCompile Include="Day 06\wait_for_it.cpp"/>
+        <ClCompile Include="Day 07\camel_cards.cpp"/>
+        <ClCompile Include="Day 07\play.cpp"/>
         <ClCompile Include="TestExercises.cpp"/>
     </ItemGroup>
     <ItemGroup>
@@ -174,6 +176,9 @@
         <ClInclude Include="Day 05\almanac.h"/>
         <ClInclude Include="Day 05\seed_map.h"/>
         <ClInclude Include="Day 06\wait_for_it.h"/>
+        <ClInclude Include="Day 07\camel_cards.h"/>
+        <ClInclude Include="Day 07\hand_type.h"/>
+        <ClInclude Include="Day 07\play.h"/>
     </ItemGroup>
     <ItemGroup>
         <Content Include="Day 01\Example01.txt"/>
@@ -189,6 +194,8 @@
         <Content Include="Day 05\Input.txt"/>
         <Content Include="Day 06\Example01.txt"/>
         <Content Include="Day 06\Input.txt"/>
+        <Content Include="Day 07\Example01.txt"/>
+        <Content Include="Day 07\Input.txt"/>
     </ItemGroup>
     <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets"/>
     <ImportGroup Label="ExtensionTargets">

@@ -1,8 +1,8 @@
 #include <iostream>
-#include "Day 06/wait_for_it.h"
+#include "Day 07/camel_cards.h"
 
 int main(int argc, char* argv[])
 {
-	std::cout << wait_for_it::part_two("Day 06/Input.txt", true);
+	std::cout << camel_cards::part_one("Day 07/Input.txt", true);
 	return 0;
 }
