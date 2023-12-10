@@ -1,8 +1,8 @@
 #include <iostream>
-#include "Day 05/almanac.h"
+#include "Day 06/wait_for_it.h"
 
 int main(int argc, char* argv[])
 {
-	std::cout << almanac::part_two("Day 05/Input.txt", true);
+	std::cout << wait_for_it::part_one("Day 06/Input.txt", true);
 	return 0;
 }
