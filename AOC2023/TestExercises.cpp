@@ -1,8 +1,8 @@
 #include <iostream>
-#include "Day 07/camel_cards.h"
+#include "Day 08/haunted_wasteland.h"
 
 int main(int argc, char* argv[])
 {
-	std::cout << camel_cards::part_two("Day 07/Input.txt", true);
+	std::cout << haunted_wasteland::part_one("Day 08/Input.txt", true);
 	return 0;
 }
