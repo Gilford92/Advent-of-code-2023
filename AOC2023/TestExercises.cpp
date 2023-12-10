@@ -3,6 +3,6 @@
 
 int main(int argc, char* argv[])
 {
-	std::cout << haunted_wasteland::part_one("Day 08/Input.txt", true);
+	std::cout << haunted_wasteland::part_two("Day 08/Input.txt", true);
 	return 0;
 }
