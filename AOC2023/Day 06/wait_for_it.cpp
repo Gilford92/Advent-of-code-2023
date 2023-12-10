@@ -61,8 +61,58 @@ int wait_for_it::part_one(const std::string& file_name, const bool debug)
 		++it;
 	}
 
-
 	return combined_margin_of_error;
+}
+
+long long wait_for_it::part_two(const std::string& file_name, const bool debug)
+{
+	long long margin_of_error = 0;
+
+	std::ifstream input_file(file_name);
+
+	int line_counter = 0;
+	long long time = 0;
+	long long distance = 0;
+
+	for(std::string line; std::getline(input_file, line);)
+	{
+		if(debug)
+		{
+			std::cout << line << '\n';
+		}
+
+		switch(line_counter)
+		{
+			case 0:
+				time = parse_line_single_value(line);
+				break;
+			case 1:
+				distance = parse_line_single_value(line);
+				break;
+		}
+
+		++line_counter;
+	}
+
+	if(debug)
+	{
+		std::cout << '\n';
+	}
+
+	for(long long i = 1; i < time; ++i)
+	{
+		if(i * (time - i) > distance)
+		{
+			++margin_of_error;
+		}
+	}
+
+	if(debug)
+	{
+		std::cout << "Margin of error for " << time << " and distance " << distance << ": " << margin_of_error << '\n';
+	}
+
+	return margin_of_error;
 }
 
 void wait_for_it::parse_line(std::string line, std::list<int>& values)
@@ -83,4 +133,19 @@ void wait_for_it::parse_line(std::string line, std::list<int>& values)
 		p = strtok_s(nullptr, " ", &next_token);
 		++index;
 	}
+}
+
+long long wait_for_it::parse_line_single_value(const std::string& line)
+{
+	long long value = 0;
+
+	for(const char c : line)
+	{
+		if(std::isdigit(c))
+		{
+			value = value * 10 + (c - '0');
+		}
+	}
+
+	return value;
 }
