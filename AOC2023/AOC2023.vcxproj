@@ -127,6 +127,7 @@
             <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
             <ConformanceMode>true</ConformanceMode>
             <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+            <LanguageStandard>stdcpp17</LanguageStandard>
         </ClCompile>
         <Link>
             <SubSystem>Console</SubSystem>
@@ -168,6 +169,8 @@
         <ClCompile Include="Day 08\directions.cpp"/>
         <ClCompile Include="Day 08\haunted_wasteland.cpp"/>
         <ClCompile Include="Day 09\mirage_maintenance.cpp"/>
+        <ClCompile Include="Day 10\pipe.cpp"/>
+        <ClCompile Include="Day 10\pipe_maze.cpp"/>
         <ClCompile Include="TestExercises.cpp"/>
     </ItemGroup>
     <ItemGroup>
@@ -187,6 +190,8 @@
         <ClInclude Include="Day 08\haunted_wasteland.h"/>
         <ClInclude Include="Day 09\mirage_maintenance.h"/>
         <ClInclude Include="Day 09\node.h"/>
+        <ClInclude Include="Day 10\pipe.h"/>
+        <ClInclude Include="Day 10\pipe_maze.h"/>
     </ItemGroup>
     <ItemGroup>
         <Content Include="Day 01\Example01.txt"/>
@@ -210,6 +215,9 @@
         <Content Include="Day 08\Input.txt"/>
         <Content Include="Day 09\Example01.txt"/>
         <Content Include="Day 09\Input.txt"/>
+        <Content Include="Day 10\Example01.txt"/>
+        <Content Include="Day 10\Example02.txt"/>
+        <Content Include="Day 10\Input.txt"/>
     </ItemGroup>
     <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets"/>
     <ImportGroup Label="ExtensionTargets">
